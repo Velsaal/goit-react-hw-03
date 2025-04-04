@@ -1,4 +1,4 @@
-import styles from "./ContactItem.module.css";
+import styles from "./Contact.module.css";
 
 const ContactItem = ({ id, name, number, onDeleteContact }) => (
   <li className={styles.item}>
@@ -7,4 +7,4 @@ const ContactItem = ({ id, name, number, onDeleteContact }) => (
   </li>
 );
 
-export default ContactItem;
+export default Contact;
